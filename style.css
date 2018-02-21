@@ -1,0 +1,73 @@
+#PageWrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#titles {
+    text-align: center;
+}
+
+#InActive{
+  background-color: red;
+}
+
+#Active {
+  background-color: green;
+}
+
+.status{
+  color: white;
+}
+
+#rowId{
+  font-weight: bolder;
+}
+
+#LoadBtn {
+    background-color: #817674;
+    border: none;
+    color: white;
+    padding: 6px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 9em;
+    border: 0.3px;
+    border-radius: 0.2em;
+    border-color: gray;
+}
+
+#BtnColumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3em;
+}
+
+#EmployeesTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 980px;
+   margin-bottom: 5em;
+}
+#EmployeesTable th,#EmployeesTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#EmployeesTable tr:nth-child(even){background-color: #f2f2f2;}
+#EmployeesTable tr:hover {background-color: #5A5B5F66;}
+#EmployeesTableHeader {
+    pointer-events: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #373C5A66;
+    color: white;
+    font-size: large;
+}
